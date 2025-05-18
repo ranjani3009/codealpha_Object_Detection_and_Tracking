@@ -1,6 +1,7 @@
 # Real-Time Object Detection and Tracking with YOLOv8 + DeepSORT (Tkinter GUI)
 
-![Demo Screenshot](sc3.png)  
+This Python script creates a real-time object detection and tracking application using YOLOv8 and DeepSORT within a Tkinter-based GUI. It captures video from the webcam using OpenCV, performs object detection with a YOLOv8 model (`yolov8n.pt`), and tracks detected objects across frames using DeepSORT, assigning each a unique ID. The GUI allows users to start and stop the tracking process with buttons, and displays the live video feed with bounding boxes and IDs overlaid. Pillow is used to convert OpenCV frames for display in Tkinter, creating an interactive desktop application for visual object tracking.
+ 
 
 ---
 
@@ -26,16 +27,26 @@ The system captures live video from your webcam, detects objects in each frame, 
 
 ---
 
+## screenshots
+
+![Demo Screenshot](sc3.png) 
+
+![Demo Screenshot](sc4.png) 
+
+---
+
 ## Usage
 
 Run the GUI application:
 
-'''bash
+ ```bash
 python object_tracking_gui.py
 
 -Click Start Tracking to begin detection and tracking via webcam.
 -Click Stop to stop the webcam feed.
 -Close the window to exit the app.
+
+---
 
 ## Troubleshooting
 
