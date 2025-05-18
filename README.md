@@ -36,11 +36,9 @@ The system captures live video from your webcam, detects objects in each frame, 
 ---
 
 ## Usage
-
-Run the GUI application:
-
- ```bash
-python object_tracking_gui.py
+1.Run the GUI application:
+    ```bash
+    python object_tracking_gui.py
 
 -Click Start Tracking to begin detection and tracking via webcam.
 -Click Stop to stop the webcam feed.
@@ -48,12 +46,13 @@ python object_tracking_gui.py
 
 ---
 
-## Troubleshooting
+## troubleshooting:
 
 -Ensure your webcam is free and accessible.
 -Use smaller YOLO models (yolov8n.pt) for better performance on low-end hardware.
 -Verify all dependencies are installed properly.
 
+---
 
 ## Installation
 
