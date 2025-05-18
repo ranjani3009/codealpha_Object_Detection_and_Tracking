@@ -1,7 +1,6 @@
 # Real-Time Object Detection and Tracking with YOLOv8 + DeepSORT (Tkinter GUI)
 
 ![Demo Screenshot](sc3.png)  
-*Replace this with your actual screenshot showing the GUI with detections and tracking*
 
 ---
 
@@ -26,6 +25,24 @@ The system captures live video from your webcam, detects objects in each frame, 
 - Start and stop webcam feed with buttons  
 
 ---
+
+## Usage
+
+Run the GUI application:
+
+'''bash
+python object_tracking_gui.py
+
+-Click Start Tracking to begin detection and tracking via webcam.
+-Click Stop to stop the webcam feed.
+-Close the window to exit the app.
+
+## Troubleshooting
+
+-Ensure your webcam is free and accessible.
+-Use smaller YOLO models (yolov8n.pt) for better performance on low-end hardware.
+-Verify all dependencies are installed properly.
+
 
 ## Installation
 
